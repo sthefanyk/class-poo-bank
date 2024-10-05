@@ -1,0 +1,29 @@
+.container {
+    border-radius: 54.176px;
+    background: #363F4F;
+    box-shadow: 0px 4.515px 4.515px 0px rgba(0, 0, 0, 0.25), 0px 212.191px 58.691px 0px rgba(0, 0, 0, 0.01), 0px 135.441px 54.176px 0px rgba(0, 0, 0, 0.04), 0px 76.75px 46.276px 0px rgba(0, 0, 0, 0.15), 0px 33.86px 33.86px 0px rgba(0, 0, 0, 0.26), 0px 9.029px 19.188px 0px rgba(0, 0, 0, 0.29), 0px 6.772px 9.029px 0px rgba(255, 255, 255, 0.10) inset, 0px -4.515px 5.643px 0px rgba(0, 0, 0, 0.22) inset;
+}
+
+.container2 {
+    border-radius: 22.574px;
+    background: #1A1C25;
+    box-shadow: 0px 4.515px 9.481px 3.386px rgba(0, 0, 0, 0.25) inset;
+}
+
+.container3 {
+    border-radius: 6.911px;
+    background: #1D222E;
+    box-shadow: 0px 15.204px 12.025px 2.764px rgba(0, 0, 0, 0.25);
+}
+
+.button {
+    border-radius: 2px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%), #363F4F;
+    box-shadow: 0px 11px 7px 0px rgba(0, 0, 0, 0.01), 0px 7px 7px 0px rgba(0, 0, 0, 0.04), 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.26), 0px 0px 2px 0px rgba(0, 0, 0, 0.29), 0px 2px 3px 0px rgba(255, 255, 255, 0.06) inset;
+}
+
+.add-card-active {
+    border-radius: 2.257px;
+    background: #EFFF97;
+    filter: blur(0.6207720637321472px);
+}

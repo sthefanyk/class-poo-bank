@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administratration</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body class="bg-[#262D3D] h-screen flex justify-center items-end overflow-hidden">
+    <div class="container flex p-16 pb-48 pr-10 pt-12 gap-8 w-min h-[90%] -mb-20">
+        <div class="">
+            <div class="h-10 flex items-center justify-between mb-6">
+                <h1 class="text-2xl font-bold text-[#FFF]">Clientes</h1>
+                <div class="p-2">
+                    <img src="" th:src="@{/icons/more.svg}" alt="">
+                </div>
+            </div>
+            <div class="flex w-[1200px] h-10 items-center">
+                <div class="w-[25%] uppercase font-bold text-[#FFF]">nome do cliente</div>
+                <div class="w-[15%] uppercase font-bold text-[#FFF]">conta</div>
+                <div class="w-[15%] uppercase font-bold text-[#FFF]">agência</div>
+                <div class="w-[15%] uppercase font-bold text-[#FFF]">saldo</div>
+                <div class="w-[15%] uppercase font-bold text-[#FFF]">status</div>
+                <div class="w-[15%] uppercase font-bold text-[#FFF]">ações</div>
+            </div>
+            <div class="flex w-full py-2 items-center">
+                <div class="w-[25%] text-[#FFF] capitalize">John Doe</div>
+                <div class="w-[15%] text-[#FFF]">00000-00</div>
+                <div class="w-[15%] text-[#FFF]">000-00</div>
+                <div class="w-[15%] text-[#FFF]"><span>R$</span>1.200</div>
+                <div class="w-[15%] text-[#07C983] uppercase">ativo</div>
+                <div class="w-[15%] text-[#FFF] flex gap-2">
+                    <div class="button p-1"><img th:src="@{/icons/bank.svg}" alt=""></div>
+                    <div class="button p-1"><img th:src="@{/icons/edit.svg}" alt=""></div>
+                </div>
+            </div>
+            <div class="flex w-full py-2 items-center">
+                <div class="w-[25%] text-[#FFF] capitalize">John Doe</div>
+                <div class="w-[15%] text-[#FFF]">00000-00</div>
+                <div class="w-[15%] text-[#FFF]">000-00</div>
+                <div class="w-[15%] text-[#FFF]"><span>R$</span>1.200</div>
+                <div class="w-[15%] text-[#07C983] uppercase">ativo</div>
+                <div class="w-[15%] text-[#FFF] flex gap-2">
+                    <div class="button p-1"><img th:src="@{/icons/bank.svg}" alt=""></div>
+                    <div class="button p-1"><img th:src="@{/icons/edit.svg}" alt=""></div>
+                </div>
+            </div>
+            <div class="flex w-full py-2 items-center">
+                <div class="w-[25%] text-[#FFF] capitalize">John Doe</div>
+                <div class="w-[15%] text-[#FFF]">00000-00</div>
+                <div class="w-[15%] text-[#FFF]">000-00</div>
+                <div class="w-[15%] text-[#FFF]"><span>R$</span>1.200</div>
+                <div class="w-[15%] text-[#07C983] uppercase">ativo</div>
+                <div class="w-[15%] text-[#FFF] flex gap-2">
+                    <div class="button p-1"><img th:src="@{/icons/bank.svg}" alt=""></div>
+                    <div class="button p-1"><img th:src="@{/icons/edit.svg}" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

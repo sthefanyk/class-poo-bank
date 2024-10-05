@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body class="bg-[#262D3D] h-screen flex justify-center items-end overflow-hidden">
+    <div class="container flex p-16 pb-48 pr-10 gap-8 w-min -mb-20">
+        <div class="flex flex-col gap-3">
+            <div class="container2 p-8 px-8 flex flex-col items-center gap-4">
+                <div class="flex gap-3">
+                    <div class="flex flex-col gap-3 justify-center">
+                        <div class="button w-9 h-6"></div>
+                        <div class="button w-9 h-6"></div>
+                        <div class="button w-9 h-6"></div>
+                        <div class="button w-9 h-6"></div>
+                    </div>
+                    <div class="border-8 border-[#000] rounded-lg bg-[#471DA1] w-[240px] h-[170px]"></div>
+                    <div class="flex flex-col gap-3 justify-center">
+                        <div class="button w-9 h-6"></div>
+                        <div class="button w-9 h-6"></div>
+                        <div class="button w-9 h-6"></div>
+                        <div class="button w-9 h-6"></div>
+                    </div>
+                </div>
+                <div class="bg-[#000] py-3 px-8 flex items-center my-6">
+                    <div class="bg-[#07C983] w-32 h-1"></div>
+                </div>
+    
+                <div class="bg-[#C5C3C4] py-2 px-12 flex items-center mb-8">
+                    <div class="bg-[#363F4F] py-2 flex items-center border-4 border-[#000]">
+                        <div class="bg-[#000] w-48 h-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container3 w-full flex justify-center p-6">
+                <div class="flex gap-4">
+                    <div class="flex flex-col gap-2">
+                        <div class="flex gap-2">
+                            <div class="flex justify-center items-center bg-[#D9D9D9] w-12 h-6 rounded-sm font-semibold text-xl p-2">1</div>
+                            <div class="flex justify-center items-center bg-[#D9D9D9] w-12 h-6 rounded-sm font-semibold text-xl p-2">2</div>
+                            <div class="flex justify-center items-center bg-[#D9D9D9] w-12 h-6 rounded-sm font-semibold text-xl p-2">3</div>
+                        </div>
+                        <div class="flex gap-2">
+                            <div class="flex justify-center items-center bg-[#D9D9D9] w-12 h-6 rounded-sm font-semibold text-xl p-2">4</div>
+                            <div class="flex justify-center items-center bg-[#D9D9D9] w-12 h-6 rounded-sm font-semibold text-xl p-2">5</div>
+                            <div class="flex justify-center items-center bg-[#D9D9D9] w-12 h-6 rounded-sm font-semibold text-xl p-2">6</div>
+                        </div>
+                        <div class="flex gap-2">
+                            <div class="flex justify-center items-center bg-[#D9D9D9] w-12 h-6 rounded-sm font-semibold text-xl p-2">7</div>
+                            <div class="flex justify-center items-center bg-[#D9D9D9] w-12 h-6 rounded-sm font-semibold text-xl p-2">8</div>
+                            <div class="flex justify-center items-center bg-[#D9D9D9] w-12 h-6 rounded-sm font-semibold text-xl p-2">9</div>
+                        </div>
+                        <div class="flex gap-2">
+                            <div class="flex justify-center items-center bg-[#D9D9D9] w-12 h-6 rounded-sm font-semibold text-xl p-2"></div>
+                            <div class="flex justify-center items-center bg-[#D9D9D9] w-12 h-6 rounded-sm font-semibold text-xl p-2">0</div>
+                            <div class="flex justify-center items-center bg-[#D9D9D9] w-12 h-6 rounded-sm font-semibold text-xl p-2"></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <div class="flex justify-center items-center bg-[#E83E23] w-12 h-6 rounded-sm font-bold text-[12px] p-2">CANCEL</div>
+                        <div class="flex justify-center items-center bg-[#FDD302] w-12 h-6 rounded-sm font-bold text-[12px] p-2">CLEAR</div>
+                        <div class="flex justify-center items-center bg-[#D9D9D9] w-12 h-6 rounded-sm font-bold text-[12px] p-2"></div>
+                        <div class="flex justify-center items-center bg-[#07C983] w-12 h-6 rounded-sm font-bold text-[12px] p-2">ENTER</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col gap-10 items-center">
+            <div class="bg-[#000] py-3 px-6 flex items-center my-6">
+                <div class="bg-[#07C983] w-28 h-1"></div>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="flex items-center">
+                    <div class="w-4 h-10 bg-[#262D3D]" style="clip-path: polygon(0 0, 100% 35%, 100% 65%, 0% 100%);"></div>
+                    <div class="bg-[#000] w-24 h-3"></div>
+                    <div class="w-4 h-10 bg-[#262D3D]" style="clip-path: polygon(0 35%, 100% 0%, 100% 100%, 0% 65%);"></div>
+                </div>
+                <div class="-mt-5">
+                    <img th:src="@{/images/nota.svg}" alt="">
+                </div>
+            </div>
+
+            <div class="relative w-24 h-16 bg-[#262D3D] px-4 py-2 flex justify-center items-center rounded-lg mt-20">
+                <div class="add-card-active w-3 h-2 absolute right-2 top-2 z-10"></div>
+                <div class="bg-[#000] w-full h-2 z-10"></div>
+
+                <div class="absolute bg-[#373E51] w-[40%] h-[85%] right-1
+                    rounded-tl-lg rounded-bl-lg rounded-br rounded-tr
+                "></div>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
